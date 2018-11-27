@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header style="background-color:white;">               
+                    <div style="float:left;">
+                        <asp:Image ID="Image2" runat="server" src="/Images/VetClinicCC2.jpg" />
+                    </div>     
+                
+            </header>
+            <!-- <nav>Menu goes here</nav> -->
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                <!-- <div style="left:169px; width:844px; position:absolute;top:135px; height:267px;"></div> -->
+                </asp:ContentPlaceHolder>
+            </section>
+          <!--  <aside id="Sidebar">Sidebar Goes Here</aside> -->
+            <footer>Melbourne Vet Clinic</br>Melbourne Street, WA 98052-6399</footer>
+        </div>
+    </form>
+</body>
+</html>

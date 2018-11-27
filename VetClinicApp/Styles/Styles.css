@@ -1,0 +1,72 @@
+﻿* {
+    font: 12px Tahoma normal;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+#PageWrapper {
+    width: 844px;
+    margin: auto;
+}
+
+
+
+nav {
+    width: 844px;
+}
+/*#region Main Content */
+section#MainContent {
+    width: 844px;
+    float: left;
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:normal;
+    
+}
+
+    section#MainContent a {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+        section#MainContent a:visited {
+            color: #FF0000;
+            text-decoration: underline;
+        }
+
+        section#MainContent a:hover {
+            color: #FFA500;
+            text-decoration: underline;
+        }
+.Maincontent {
+    width: 844px;   
+   
+}
+
+/*#endregion Main Content */
+aside {
+    background-color: Gray;
+    width: 180px;
+    float: left;
+}
+
+footer {
+    font: 12px Tahoma bold;
+    background-color: #D2B48C;
+    width: 844px;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+header {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 844px;
+    height: 86px;
+    
+}
